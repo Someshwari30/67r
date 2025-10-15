@@ -1,0 +1,15 @@
+.background{
+    height:800px;
+    width:1498px;
+    border: 1px transparent black;
+    background-image: url('https://www.w3schools.com/w3images/architect.jpg');
+    background-size: 1498px 800px;
+
+}
+.box{
+    height:800px;
+    width:1498px;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+}
