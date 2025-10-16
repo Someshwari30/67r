@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin:0px;
+            padding:0px;
+            font-family: 'Times New Roman', Times, serif;
+        }
+        .a{
+            height: 50px;
+            width: 100%;
+            background-color: white;
+            position: fixed;
+            display:flex;
+            justify-content: space-between;
+            box-shadow: 0px 0px 5px 0px grey;
+        }
+        .b{
+            margin: 20px;
+        }
+        .c{
+            display:flex;
+            justify-content: space-evenly;
+            width: 220px;
+            margin: 20px;
+        }
+        .d{
+           background-image: url("https://www.w3schools.com/w3images/hamburger.jpg");
+           width: 100%;
+           height: 800px;
+           display:flex;
+           align-items:end;
+        }
+        .LC{
+            height:50px;
+            width:200px;
+            margin-left:30px;
+            color:rgb(112, 111, 111);
+            font-size:35px;
+        }
+        .e{
+            display:flex;
+            justify-content: center;
+        }
+        .f{
+            height: 550px;
+            width: 500px;
+        }
+        input{
+            width: 50%;
+            padding: 10px;
+        }
+        .cont{
+            margin-left: 370px;
+        }
+        a{
+            text-decoration:none;
+            color: black;
+        }
+        a:hover{
+            background-color: rgb(214, 209, 209);
+            height: 25px;
+            width:50px;
+            padding:1px;
+        }
+        .b:hover{
+            background-color: rgb(214, 209, 209);
+            height: 25px;
+            width: 140px;
+            padding:1px;
+        }
+    </style>
+</head>
+<body>
+    <div class="a">
+        <div class="b" href="#pic" style="text-decoration:none;">Gourmet au Catering</div>
+        <div class="c">
+            <a href="#about">About</a>
+            <a href="#menu">Menu</a>
+            <a href="#contact">Contact</a>
+        </div>
+    </div>
+    <div class="d" id="pic">
+        <h1 class="LC">Le Catering</h1>
+    </div><br><br><br>
+    <div class="e" id="about">
+        <div class="f" style="text-align:center;">
+            <img src="https://www.w3schools.com/w3images/tablesetting2.jpg" style="height: 550px; width: 450px;">
+        </div>
+        <div class="f">
+            <div style="text-align:center;">
+                <h1>About Catering</h1><br><br>
+                <p>Tradition since 1889</p><br>
+            </div>
+            <div style="margin: 20px;">
+                <p style='padding: 15px;'>The Catering was founded in blabla by Mr. Smith in lorem ipsum dolor sit amet, consectetur adipiscing elit consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute iruredolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.We only use seasonal ingredients.</p>
+                <p style="color:rgb(154, 151, 151); padding: 15px;">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod temporincididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+            </div>
+        </div>
+    </div><br><br><br>
+    <hr><br><br><br>
+    <div class="e">
+        <div class="f" id="menu">
+            <div style="text-align:center;">
+                <h1>Our Menu</h1><br><br>
+            </div>
+            <div style="margin: 20px;">
+                <h3>Bread Basket</h3><br>
+                <p style="color:rgb(154, 151, 151)">Assortment of fresh baked fruit breads and muffins 5.50</p><br><br>
+                <h3>Honey Almond Granola with Fruits</h3><br>
+                <p style="color:rgb(154, 151, 151)">Natural cereal of honey toasted oats, raisins, almonds and dates 7.00</p><br><br>
+                <h3>Belgian Waffle</h3><br>
+                <p style="color:rgb(154, 151, 151)">Vanilla flavored batter with malted flour 7.50</p><br><br>
+                <h3>Scrambled eggs</h3><br>
+                <p style="color:rgb(154, 151, 151)">Scrambled eggs, roasted red pepper and garlic, with green onions 7.50</p><br><br>
+                <h3>Blueberry Pancakes</h3><br>
+                <p style="color:rgb(154, 151, 151)">With syrup, butter and lots of berries 8.50</p><br><br>
+            </div>
+        </div>
+        <div class="f" style="text-align:center;">
+            <img src="https://www.w3schools.com/w3images/tablesetting.jpg" style="height: 550px; width: 450px;">
+        </div>
+    </div><br><br><br>
+    <hr><br><br><br>
+    <div class="cont" id="contact">
+        <h1>Contact</h1><br><br><br>
+        <p>We offer full-service catering for any event, large or small. We understand your needs and we will cater the food to satisfy the biggerst criteria of them all, both look and taste. Do not hesitate to contact us.</p><br>
+        <p style="color:#607D88"><b>Catering Service, 42nd Living St, 43043 New York, NY</b></p><br>
+        <p>You can also contact us by phone 00553123-2323 or email catering@catering.com, or you can send us a message here:</p><br>
+    </div>
+    <div style="text-align:center;">
+        <label for="name"></label><br>
+        <input type="text" id="name" placeholder="Name" required><br>
+        <label for="many"></label><br>
+        <input type="number" id="name" placeholder="How many people"><br>
+        <label for="dob"></label><br>
+        <input type="datetime-local" id="dob" placeholder="How many people"><br>
+        <label for="msg"></label><br>
+        <input type="text" id="msg" placeholder="Message\Special requirements"><br><br>
+    </div>
+    <button style="width:150px; height:25px; border:0px; color:rgb(21, 20, 20); background-color:rgb(214, 209, 209); margin-left: 370px;">SEND MESSAGE</button><br><br><br>
+    <div style="background-color:rgb(214, 209, 209); color:black; height: 25px; text-align:center; padding: 50px;">
+        <p>Powered by <a href="https://www.w3schools.com/" style="text-decoration:underline">w3.css</a></p>
+    </div>
+</body>
+</html>
